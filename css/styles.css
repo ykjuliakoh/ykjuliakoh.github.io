@@ -179,12 +179,12 @@ sup {
 }
 
 a {
-  color: #bd5d38;
+  color: #3d85c6;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #824027;
+  color: #0b5394;
   text-decoration: underline;
 }
 
@@ -6475,7 +6475,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #3d85c6 !important;
 }
 
 a.bg-primary:hover,
