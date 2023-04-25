@@ -384,6 +384,10 @@ template {
   display: none !important;
 }
 
+#about   {
+  marging-top: 13rem !important;
+}
+
 h1,
 h2,
 h3,
