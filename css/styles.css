@@ -2067,6 +2067,10 @@ pre code {
   #about {
     padding-top: 3rem !important;
   }
+  img.mob {
+    width: 20%;
+    height: auto;
+  }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
