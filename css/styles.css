@@ -2064,6 +2064,9 @@ pre code {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+  #about {
+    padding-top: 6rem !important;
+  }
 }
 @media (max-width: 1199.98px) {
   .table-responsive-xl {
