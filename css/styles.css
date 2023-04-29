@@ -384,7 +384,7 @@ template {
   display: none !important;
 }
 
-#about   {
+  #about   {
   padding-top: 16rem !important;
 }
 
@@ -2065,7 +2065,7 @@ pre code {
     border: 0;
   }
   #about {
-    padding-top: 6rem !important;
+    padding-top: 3rem !important;
   }
 }
 @media (max-width: 1199.98px) {
