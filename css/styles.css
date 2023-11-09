@@ -7920,6 +7920,7 @@ button.bg-dark:focus {
 .mb-0,
 .my-0 {
   margin-bottom: 0.5rem !important;
+  text-align: justify;
 }
 
 .ml-0,
@@ -8040,6 +8041,7 @@ button.bg-dark:focus {
 .mb-5,
 .my-5 {
   margin-bottom: 3rem !important;
+  text-align: justify;
 }
 
 .ml-5,
