@@ -661,7 +661,60 @@ pre code {
 .btn-link:hover {
     text-decoration: underline;
 }
+/* The main container for the block */
+.pub-card {
+    display: flex;
+    background-color: #f8f9fa; /* Very light grey background */
+    border-radius: 8px;        /* Rounded corners */
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    /* This creates the colored strip on the left */
+    border-left: 6px solid #ccc; 
+    
+    /* Subtle shadow to give it a "lifted" feel */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
 
+/* Hover effect to make it interactive */
+.pub-card:hover {
+    transform: translateX(5px);
+    background-color: #f1f3f5;
+}
+
+/* Specific color for "Published" category */
+.category-published {
+    border-left-color: #2c3e50; /* Dark blue/slate accent */
+}
+
+/* Specific color for "Working Papers" (Optional) */
+.category-working {
+    border-left-color: #e67e22; /* Orange accent */
+}
+
+/* Layout adjustments */
+.pub-label {
+    min-width: 80px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.pub-content {
+    flex: 1;
+}
+
+.pub-title {
+    margin: 0 0 8px 0;
+    font-size: 1.1rem;
+    color: #212529;
+}
+
+.pub-authors, .pub-venue {
+    margin: 4px 0;
+    font-size: 0.95rem;
+    color: #6c757d;
+}
 /* Mobile responsive adjustment */
 @media (max-width: 600px) {
     .pub-item {
